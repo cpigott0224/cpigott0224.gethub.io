@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Chris' Amazing Website</title>
+        <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header>Chris' Amazing Website</header>
+                <ul>
+                    <li><a herf="index.html">Home</a></li>
+                    <li><a herf="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    
+                    <img src="data:image/jpeg;base64,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">
+                </div>
+                
+                <div class="content">
+                    <h1> Chris the Master
+                    </h1>
+               
+                <p> Engineering & Robotics Instructor
+                    </p>
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Hunting</li>
+                            <li>Fishing</li>
+                            <li>Beer</li>
+                        </ul>
+                    </section>
+                     </div>
+            </main>
+        </div>
+    </body>
+</html>
